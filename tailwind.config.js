@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     textColor:{
+      "-color-white": "#fff",
     },
     colors: {
       "--color-navbar-purple": "#6741d9",
