@@ -2,12 +2,12 @@ const navbar = () => {
   return (
     <>
       <nav className="flex justify-center items-center -text-color-white text-xl w-[100vw]">
-        <div className="flex flex-row justify-between items-center -bg--color-navbar-purple p-4 rounded-xl mt-6 w-[90vw]">
+        <div className="flex flex-row justify-between items-center -bg--color-navbar-purple p-4 rounded-xl mt-6 w-[95vw]">
           <div className="flex flex-row justify-between items-center">
             <span className="text-2xl" role="img">
               🍿
             </span>
-            <span>usepopcorn</span>
+            <span className=" text-1xl font-bold">usePopcorn</span>
           </div>
           <div>
             <input
@@ -19,7 +19,9 @@ const navbar = () => {
             />
           </div>
           <div>
-            <span>Found result</span>
+            <span className="font-light">
+              Found {<span className="font-bold">0</span>} result
+            </span>
           </div>
         </div>
       </nav>

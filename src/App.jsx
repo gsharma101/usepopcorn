@@ -10,10 +10,12 @@ function App() {
       <main>
         <NavbarContainer></NavbarContainer>
       </main>
-      {/* <div>
-        <WatchedListContainer></WatchedListContainer>
-        <MovieListContainer></MovieListContainer>
-      </div> */}
+      <div className="flex justify-center items-center">
+        <div className="flex flex-row justify-center items-center px-10 pt-5 w-[95vw]">
+          <MovieListContainer></MovieListContainer>
+          <WatchedListContainer></WatchedListContainer>
+        </div>
+      </div>
     </>
   );
 }

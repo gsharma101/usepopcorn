@@ -8,6 +8,7 @@ export default {
     colors: {
       "--color-navbar-purple": "#6741d9",
       "--color-white": "#ffffff",
+      "--color-container-background": "#2b3035",
       "--color-search-background": "#7950f2",
       "body-background": "#212529",
     },
